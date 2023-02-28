@@ -1,0 +1,58 @@
+#include "common.h"
+
+struct 	v2p
+{
+ 	float2 	tc0: 		TEXCOORD0;	// base
+ 	half3 	tc1: 		TEXCOORD1;	// environment
+  	half4	c0:			COLOR0;		// sun.(fog*fog)
+};
+
+uniform float4x4 m_script_params; 
+uniform float4 m_hud_params;	// zoom_rotate_factor, secondVP_zoom_factor, NULL, NULL
+uniform float4 m_blender_mode;	
+uniform float4 screen_res;
+
+uniform sampler2D	s_vp2;
+
+inline bool isSecondVPActive()
+{
+	return (m_blender_mode.z == 1.f);
+}
+
+float  resize(float input, float factor, float offset)
+{
+	return (input-0.5f+offset) / factor+0.5f-offset;
+}
+
+//////////////////////////////////////////////////////////////////////////////////////////
+
+half4 main( v2p I )	: COLOR
+{
+	//Constants
+	float BAS_NV_BRIGHTNESS = 6.4;
+	float3 BAS_NV_COLOR = (0.2, 1.0, 0.4);
+	float BAS_NV_NOISE = 0.085;
+	float BAS_NV_FLICK = 0.004;
+
+	half4 t_base = tex2D(s_base, I.tc0); // Текстура сетки	
+	I.tc0.x = resize(I.tc0.x, screen_res.x / screen_res.y, 0);
+	
+	half4 t_vp2 = tex2D(s_vp2, I.tc0); // Изображение со второго вьюпорта
+
+    float noise = frac(sin(dot(I.tc0, float2(12.0, 78.0) + timers.x)) * 43758.0); 
+    float lum = dot(t_vp2.xyz, float3(0.2125, 0.7154, 0.0721) * BAS_NV_BRIGHTNESS);
+	
+	if (!isSecondVPActive()) 
+	{
+		t_vp2.rgb *= 0.01; //KRodin: чтобы изображение во втором вьюпорте не застывало после его отключения - просто затемним его в 100 раз.
+	}
+	else
+	{
+	    t_vp2.xyz = BAS_NV_COLOR * lum; //BW + color
+		t_vp2.xyz += noise * BAS_NV_NOISE; //Noise
+		t_vp2.xyz += BAS_NV_FLICK * sin(timers.x * 73.0); //Flickering, fps hit
+	}	
+
+	half3 final = lerp(t_vp2, t_base, t_base.a);
+	return half4(final.r, final.g, final.b, m_hud_params.x);
+}

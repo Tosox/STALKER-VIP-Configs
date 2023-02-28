@@ -1,0 +1,228 @@
++HD Glowsticks Icons
++Roadside's Lens Flares
++BaS Dynamic Zoom Enabler
++Wepl Hit Effects Rework
++Vehicles in Darkscape
++Repaired Started Items
++No Mask textures
++No Harmonica
++MP7 Replacer EFT Reposition
++Free Zoom
++Horror Overhaul Fixes
++BaS Animation Fixes
++GAMMA Addons_separator
++Modern UI Font
++Better Glass Overlay
++Better RF Receiver Sounds
++Attach Patches with Hotkey
++Better Portrait Icons
++Night Mutants
++Hideout Furniture
++Gardener of the Zone
++Show Repair Bonuses
++Increased Companion Distance
++Placeable Campfires
++Better Area Transition
++YACS Better Campfire Saves
++Anomaly 1.5.2 Fixes
++Optionals_separator
++Realistic Blood
++Unofficial Autocomplete + More Dynamic Tasks
++Activated Charcoal
++Simple Weapons Pack
++Water Flask Rework
++Gunslinger Controller
++New Coffee
++Barry's Better Axes
++Barry's Better Knifes
++Better Blood Decals
++Mini Modpack
++More Zombie Textures
++DLTX_separator
++Screen Space Shaders
++Shader-Based NVGs
++Enhanced Shaders
++Shader Driven Scopes
++Shaders_separator
++Player Icon Fix
++Cr3pis Iconpack
++Better Stats Bars
++Minimap Toggle
++Save Name Change
++Cost in Tooltip
++Parts in Tooltip
++New Mutant Parts Textures
++Alternative Icons
++New Sorting Tabs
++Hunger Thirst and Sleepiness Bars
++Faction Identification
++UI_separator
++More Tasks
++Ranks Revisited
++Military not attacked by Duty in Rostok
++More Level Transitions
++Thermal Resistance Fix
++No Exos in the Sounth
++UNISG Trader Fix
++RF Receiver Tasks
++Early Game Tweaks
++Trader Overhaul
++Progression_separator
++Upgrades Overhaul
++Prefer Best Disassembly Tool
++Keep Crafting Window Opened
++Crafting Fixes
++Craft and Repair Overhaul
++Crafting_separator
++Companions Obey Fix
++Immersive Skinning
++Show Campfires on the Minimap
++Old Ammo Becomes New Ammo
++Body Awareness
++Inspect Weapons
++NPCs die in Emissions
++Combine All Items
++Disassemble All Items
++Knifeable Containers
++Battery Warning
++Restored Encyclopedia Messages
++No Drug Limit
++Sidorovich's Door Always Open
++Scope Zoom Fix
++PDA to Previous Weapon
++Undercover Communications
++Weapons Drop on Bodies
++No Companion Friendly Fire
++Companion Anti AWOL
++Lifegranter Counter
++Decrease Bush Hearing Distance
++Better Masks and Reflections
++Guide Tasks Fix
++Companions Deactivate Headlamps in Stealth
++New Safe Zones
++Nitpickers Modpack
++Modular Miscellaneous Tweaks
++Tales from the Zone
++Fight my Foes
++He is with me
++HD Glowsticks EFT Reposition Fix
++HD Glowsticks
++Gotta Go Also Slow
++Gotta Go Fast
++Dialogues Expanded
++Early Geiger Ticks
++Cozy Campfires
++Aslans Lottery Fix
++Knife and Pistol in Binculars Slot
++Sorting Plus
++MCM
++Remove Dropping Weapons
++QoL_separator
++Weapon Cover Tilt
++Quick Melee Rework
++Remove BaS Labels
++BaS Resound
++L96 Reanimation
++VSSK Reanimation
++MP412 Rex Reanimation
++UMP Reanimation
++BaS Scopes
++Better Bolt Animations
++CLAD for BaS
++Doom-Like Weapon Inspection
++Tacticool Scopes
++Fire Mode Switcher Sound
++Vityaz Replacement
++Pretty Pistols Pack
++EFT Reposition Gun Replacement Patch
++Dragunov Replacement
++G36 Pack
++Saiga Replacement
++Abakan Replacement
++MP7 Reposition
++MP7 Replacement
++Better Silenced BaS Shotguns
++EFT Reposition BAS JSRS Patch
++Boomsticks and Sharpsticks Patch
++Boomsticks and Sharpsticks
++JSRS BWRR Patch
++EFT Reposition BWRR Patch
++Adjustable Scope View
++Weapon Reanimation-Pack Loner
++EFT Reposition AWAR Patch
++AWAR
++FAL Animations
++JSRS
++EFT Reposition
++Fluid Aim
++Gunplay_separator
++Player Stash Icon
++Stash Overhaul
++Fix Bugged Stashes
++New Stash Locations
++Stashes_separator
++Blood Pools
++Dismemberment
++Companion Rework
++Phantoms at low Psy Health
++Mutant Bleeding
++Killtracker
++Companions don't die
++Disable Burnt Fuzz
++Ghillie Suit Overhaul
++Stealth Overhaul
++Bounty Squads Extended
++Gameplay_separator
++Headlamp Animation Fix
++Torch Reanimation
++Binocular Reanimation
++Camera Reanimation Project I.N.E.R.T.I.A.
++First Person Death
++Lowered Weapon Sprint
++Less Camera Sway
++Better Cigarettes Animations
++Food Drug and Drinks Animations
++Remade Animations
++Animations_separator
++Alternative Pseudodogs and PsyDogs
++Alternative Blind Dogs
++Dynamic Tonemap Extended
++Better Rain FX
++Wet Surfaces Fix
++Nicer Flashlights and Headlamps
++Inviting Upscaled Corpses
++HD Mutant Models
++FVM Nosorog Overhaul
++Fixed Vanilla Models
++Dux's Innemurable Characters Kit Voices Pack
++Dux's Innemurable Characters Kit
++Fairer Thermal Anomalies
++High Resolution PDA Maps
++High Resolution Loading Screens
++Skies Redux
++T.H.A.P. Rework
++Visuals_separator
++Dark Signal Mutant Sounds
++Dark Signal Anomalies and Blowout Sounds
++Dark Signal Weather and Ambiance Sounds
++Dark Signal UI Sounds
++New PDA Sounds
++Horror Overhaul
++Ambient Music Pack
++Inventory Open and Close Sounds
++New Hit Effects
++Voiced Russian Actor
++Angry Chimera Growls
++Quieter Wooden Box Breaking
++PDA Radio Extended
++Pre Blowout Murder
++Better Sound
++Exo Servomotor Sounds
++Better Merc Voicelines
++EFT Jump and Land SFX
++EFT Aim Rattle
++Anomaly Radio Extended
++Injury Audio Extended
++Soundscape Overhaul
++DayR Main Menu Theme
++Audio_separator
