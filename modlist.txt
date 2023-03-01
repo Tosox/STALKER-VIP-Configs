@@ -19,7 +19,6 @@
 +Better Portrait Icons
 +Night Mutants
 +Hideout Furniture
-+Gardener of the Zone
 +Show Repair Bonuses
 +Increased Companion Distance
 +Placeable Campfires
@@ -54,7 +53,7 @@
 +Parts in Tooltip
 +New Mutant Parts Textures
 +Alternative Icons
-+Hunger Thirst and Sleepiness Bars
+-Hunger Thirst and Sleepiness Bars
 +Faction Identification
 +UI_separator
 +More Tasks
