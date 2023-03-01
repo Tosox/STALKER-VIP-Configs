@@ -89,7 +89,6 @@
 +Restored Encyclopedia Messages
 +No Drug Limit
 +Sidorovich's Door Always Open
-+Scope Zoom Fix
 +PDA to Previous Weapon
 +Undercover Communications
 +Weapons Drop on Bodies
@@ -134,6 +133,8 @@
 +Pretty Pistols Pack
 +EFT Reposition Gun Replacement Patch
 +Dragunov Replacement
++Saiga Replacement
++AN94 Replacement
 +G36 Pack
 +Better Silenced BaS Shotguns
 +EFT Reposition BAS JSRS Patch
