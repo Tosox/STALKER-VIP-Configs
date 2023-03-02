@@ -26,6 +26,7 @@
 +YACS Better Campfire Saves
 +Anomaly 1.5.2 Fixes
 +Optionals_separator
++Enjoy Cigarettes
 +Realistic Blood
 +Unofficial Autocomplete + More Dynamic Tasks
 +Activated Charcoal
@@ -166,13 +167,12 @@
 +Stealth Overhaul
 +Bounty Squads Extended
 +Gameplay_separator
-+Camera Reanimation Project I.N.E.R.T.I.A
 +Headlamp Animation Fix
 +Torch Reanimation
-+Binocular Reanimation
 +First Person Death
 +Lowered Weapon Sprint
 +Less Camera Sway
++Camera Reanimation Project I.N.E.R.T.I.A
 +Better Cigarettes Animations
 +Food Drug and Drinks Animations
 +Remade Animations
