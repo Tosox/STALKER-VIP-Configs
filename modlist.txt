@@ -167,6 +167,7 @@
 +Stealth Overhaul
 +Bounty Squads Extended
 +Gameplay_separator
++PDA Reanimation
 +Headlamp Animation Fix
 +Torch Reanimation
 +First Person Death
