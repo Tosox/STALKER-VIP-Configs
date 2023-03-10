@@ -76,7 +76,7 @@
 +Craft and Repair Overhaul
 +Crafting_separator
 +Mouse Hover Transfer
-+Companions Obey Fix
++Companions Rework
 +Immersive Skinning
 +Show Campfires on the Minimap
 +Old Ammo Becomes New Ammo
