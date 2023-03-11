@@ -216,5 +216,4 @@
 +Anomaly Radio Extended
 +Injury Audio Extended
 +Soundscape Overhaul
-+DayR Main Menu Theme
 +Audio_separator
