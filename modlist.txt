@@ -12,11 +12,10 @@
 +Free Zoom
 +Horror Overhaul Fixes
 +BaS Animation Fixes
++Anomaly 1.5.2 Fixes
 +VIP Addons and Fixes_separator
-+Better Glass Overlay
 +Better RF Receiver Sounds
 +Attach Patches with Hotkey
-+Better Portrait Icons
 +Night Mutants
 +Hideout Furniture
 +Show Repair Bonuses
@@ -24,26 +23,20 @@
 +Placeable Campfires
 +Better Area Transition
 +YACS Better Campfire Saves
-+Anomaly 1.5.2 Fixes
++Faction Identification
 +Optionals_separator
-+PDA Reanimation HUD Fix
-+Enjoy Cigarettes
 +Realistic Blood
 +Unofficial Autocomplete + More Dynamic Tasks
-+Activated Charcoal
 +Water Flask Rework
 +Gunslinger Controller
-+New Coffee
-+Barry's Better Axes
-+Barry's Better Knifes
-+Mini Modpack
-+More Zombie Textures
 +DLTX_separator
 +Cinematic VFX
 +Screen Space Shaders
 +Shader-Based NVGs
 +Shader Driven Scopes
 +Shaders_separator
++Better Portrait Icons
++Better Glass Overlay
 +Player Icon Fix
 +Cr3pis Iconpack
 +Better Stats Bars
@@ -54,7 +47,6 @@
 +New Mutant Parts Textures
 +Alternative Icons
 -Hunger Thirst and Sleepiness Bars
-+Faction Identification
 +UI_separator
 +More Tasks
 +Ranks Revisited
@@ -73,6 +65,9 @@
 +Crafting Fixes
 +Craft and Repair Overhaul
 +Crafting_separator
++Enjoy Cigarettes
++Activated Charcoal
++New Coffee
 +Mouse Hover Transfer
 +Companions Rework
 +Immersive Skinning
@@ -99,6 +94,7 @@
 +Guide Tasks Fix
 +Companions Deactivate Headlamps in Stealth
 +New Safe Zones
++Mini Modpack
 +Nitpickers Modpack
 +Modular Miscellaneous Tweaks
 +Tales from the Zone
@@ -117,6 +113,8 @@
 +MCM
 +Remove Dropping Weapons
 +QoL_separator
++Barry's Better Axes
++Barry's Better Knifes
 +Weapon Cover Tilt
 +Quick Melee Rework
 +Remove BaS Labels
@@ -166,6 +164,7 @@
 +Stealth Overhaul
 +Bounty Squads Extended
 +Gameplay_separator
++PDA Reanimation HUD Fix
 +PDA Reanimation
 +Headlamp Animation Fix
 +Torch Reanimation
@@ -177,6 +176,7 @@
 +Food Drug and Drinks Animations
 +Remade Animations
 +Animations_separator
++More Zombie Textures
 +Alternative Pseudodogs and PsyDogs
 +Alternative Blind Dogs
 +Dynamic Tonemap Extended
