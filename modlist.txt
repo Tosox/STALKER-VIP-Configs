@@ -36,10 +36,10 @@
 +New Coffee
 +Barry's Better Axes
 +Barry's Better Knifes
-+Better Blood Decals
 +Mini Modpack
 +More Zombie Textures
 +DLTX_separator
++Cinematic VFX
 +Screen Space Shaders
 +Shader-Based NVGs
 +Shader Driven Scopes
