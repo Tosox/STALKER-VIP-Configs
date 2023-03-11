@@ -13,7 +13,6 @@
 +Horror Overhaul Fixes
 +BaS Animation Fixes
 +VIP Addons and Fixes_separator
--Modern UI Font
 +Better Glass Overlay
 +Better RF Receiver Sounds
 +Attach Patches with Hotkey
@@ -43,7 +42,6 @@
 +DLTX_separator
 +Screen Space Shaders
 +Shader-Based NVGs
-+Enhanced Shaders
 +Shader Driven Scopes
 +Shaders_separator
 +Player Icon Fix
@@ -183,7 +181,6 @@
 +Alternative Blind Dogs
 +Dynamic Tonemap Extended
 +Better Rain FX
-+Wet Surfaces Fix
 +Nicer Flashlights and Headlamps
 +Inviting Upscaled Corpses
 +HD Mutant Models
