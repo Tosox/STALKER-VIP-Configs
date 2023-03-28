@@ -179,7 +179,6 @@
 +[GaRRuSS] PDA Reanimation HUD Fix
 +[ky-ky123] PDA Reanimation
 +[Isthar] Torch Reanimation
-+[AyyKyu] First Person Death
 +[Skieppy] Lowered Weapon Sprint
 +[PsychologicalBit] Less Camera Sway
 +[IENCE] Camera Reanimation Project I.N.E.R.T.I.A
