@@ -32,6 +32,7 @@
 +[theRealBeef] Shader-Based NVGs
 +[CrookR] Shader Driven Scopes
 +Shaders_separator
++[Kageeskl] Minimalist Companion UI
 +[Utjan] Crafting Info in Tooltips
 +[HarukaSai] Show Campfires on the Minimap
 +[TheMrDemonized] Show Repair Bonuses
@@ -69,6 +70,7 @@
 +Enjoy Cigarettes
 +Activated Charcoal
 +Unofficial Autocomplete v4
++[ZaturaMakesMods] Auto-Stack Items
 +[Utjan] QoL Bundle
 +[NLTP_ASHES] Persistent PDA Radio
 +[TheMrDemonized] Attach Patches with Hotkey
@@ -153,6 +155,7 @@
 +[sneakydud] EFT Reposition
 +[Skieppy] Fluid Aim
 +Gunplay_separator
++[Aoldri] Descriptive Stash Coordinates
 +[_Zazquatch_] Player Stash Icon
 +[Grokitach] Stash Overhaul
 +[Tweaki_Breeki] Fix Bugged Stashes
