@@ -116,6 +116,7 @@
 +[Diphenhydramine-HCl] Zone Customization Project
 +[TheShinyHaxorus] Bolt Reanimation
 +QoL_separator
++[TheMrDemonized] Enhanced Recoil Revised
 +[OG_Grinskin91] Aiming Movement Redux
 +[FIREBREATH1001] Binocular Reanimation
 +[BarryBogs] More Melee Features
@@ -161,6 +162,7 @@
 +[Tweaki_Breeki] Fix Bugged Stashes
 +[Tweaki_Breeki] New Stash Locations
 +Stashes_separator
++[TheMrDemonized] Dynamic Anomalies Overhaul
 +[bvcx] Night Mutants
 +[bvcx] More Dynamic Tasks
 +[TheMrDemonized] NPCs die in Emissions
