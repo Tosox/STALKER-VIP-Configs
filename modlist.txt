@@ -22,7 +22,7 @@
 +Manual Installations_separator
 -[bvcx] Toxic Rain
 -[bvcx] Toxic Air
-+[Longreed] Stuck Artifacts Fix
++[KronQ] Stuck Artifacts Fix
 +[Coverdrave] Better RF Receiver Sounds
 +[Aoldri] Hideout Furniture
 +[bvcx] Placeable Campfires
@@ -57,7 +57,7 @@
 +[Igigog] Weird Tasks Framework
 +[mandothreesixtee] Ranks Revisited
 +[GhenTuong] Military not attacked by Duty in Rostok
-+[TheMrDemonized] More Level Transitions
++[Cpt.Gunner] More Level Transitions
 +[Indescript] Thermal Resistance Fix
 +[Grokitach] No Exos in the Sounth
 +[Qball.] UNISG Trader Fix
@@ -120,6 +120,7 @@
 +[Diphenhydramine-HCl] Zone Customization Project
 +[TheShinyHaxorus] Bolt Reanimation
 +QoL_separator
++[Jurkonov] Type 38 Arisaka
 +[TheMrDemonized] Enhanced Recoil Revised
 +[OG_Grinskin91] Aiming Movement Redux
 +[FIREBREATH1001] Binocular Reanimation
@@ -159,6 +160,7 @@
 +[Solarint] JSRS
 +[sneakydud] EFT Reposition
 +[Skieppy] Fluid Aim
++[Aoldri] Universal Animation Scripts
 +Gunplay_separator
 +[Aoldri] Descriptive Stash Coordinates
 +[_Zazquatch_] Player Stash Icon
