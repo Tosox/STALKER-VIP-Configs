@@ -92,7 +92,6 @@
 +[TheMrDemonized] Disassemble All Items
 +[ravenascendant] Battery Warning
 +[ravenascendant] Restored Encyclopedia Messages
-+[nb79] No Drug Limit
 +[bhelen] Sidorovich's Door Always Open
 +[TheMrDemonized] PDA to Previous Weapon
 +[Banjaji] Undercover Communications
