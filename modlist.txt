@@ -54,7 +54,8 @@
 +[TheMrDemonized] Parts in Tooltip
 +[TDLemon] New Mutant Parts Textures
 +[Strogglet15] Alternative Icons
--[bvcx] Hunger Thirst and Sleepiness Bars
++[Legapon] Hunger Thirst and Sleepiness Bars Patch
++[bvcx] Hunger Thirst and Sleepiness Bars
 +UI_separator
 +[Igigog] Weird Tasks Framework
 +[mandothreesixtee] Ranks Revisited
@@ -196,7 +197,6 @@
 +[Skieppy] Lowered Weapon Sprint
 +[PsychologicalBit] Less Camera Sway
 +[IENCE] Camera Reanimation Project I.N.E.R.T.I.A
-+[Apathy_Knight] Water Flask Rework
 +[Asnen] Better Cigarettes Animations
 +[Feel_Fried] Food Drug and Drinks Animations
 +[ChadSTALKEREnjoyer] Remade Animations
