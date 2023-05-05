@@ -16,6 +16,7 @@
 +Companions Tweaks
 +Anomaly 1.5.2 Fixes
 +VIP Addons and Fixes_separator
++[ravenascendant] NVG Animation
 +[Lucy!] HD Glowsticks Icons
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
