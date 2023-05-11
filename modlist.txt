@@ -170,6 +170,7 @@
 +[Tweaki_Breeki] Fix Bugged Stashes
 +[Tweaki_Breeki] New Stash Locations
 +Stashes_separator
++[Orleon] Mutant Parts Quality Gradation
 +[bvcx] Bloodsucker Invisibility Cloak
 +[TheMrDemonized] Dynamic Anomalies Overhaul
 +[bvcx] Night Mutants
