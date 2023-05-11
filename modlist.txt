@@ -17,7 +17,6 @@
 +Companions Tweaks
 +Anomaly 1.5.2 Fixes
 +VIP Addons and Fixes_separator
-+[ravenascendant] NVG Animation
 +[Lucy!] HD Glowsticks Icons
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
@@ -77,6 +76,7 @@
 +Enjoy Cigarettes
 +Activated Charcoal
 +Unofficial Autocomplete v4
++[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
 +[Utjan] QoL Bundle
 +[NLTP_ASHES] Persistent PDA Radio
