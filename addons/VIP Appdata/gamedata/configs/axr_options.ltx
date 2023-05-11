@@ -38,12 +38,12 @@
         SKIN_settings/equipped           = true
         SKIN_settings/space              = true
         SMR/smr_amain/glitched_pda       = false
-        SMR/smr_amain/monster_pop_factor = 0.75
+        SMR/smr_amain/monster_pop_factor = 0.9
         SMR/smr_amain/respawn_idle       = 86400
         SMR/smr_amain/smr_debug_log      = false
         SMR/smr_amain/smr_enabled        = true
         SMR/smr_amain/smr_persist_override = false
-        SMR/smr_amain/stalker_pop_factor = 0.75
+        SMR/smr_amain/stalker_pop_factor = 0.9
         SMR/smr_anomalies/chemical       = true
         SMR/smr_anomalies/dyn_ano_chance = 35
         SMR/smr_anomalies/electric       = true
@@ -194,6 +194,9 @@
         aol_hf/world_obj/flag_record_on_place = false
         aoldri_axe_sounds/resume_time    = 0.1
         aoldri_axe_sounds/time_factor    = 0.1
+        avo/enable_ea                    = true
+        avo/exo_anims                    = true
+        avo/kevlar_anims                 = true
         beef_nvg/nvg_gain_max_mcm        = 2
         beef_nvg/nvg_gain_min_mcm        = 0.5
         beef_nvg/nvg_gain_offset_mcm     = 1
@@ -357,12 +360,17 @@
         eft_jump_sounds/volume           = 1
         eft_rattle/aim_rattle            = true
         eft_rattle/lower_raise_rattle    = true
+        enjoy_cigs/modifier              = 1
+        enjoy_cigs/quickslot_bind        = true
         exo_servo_sounds/scale_freq      = true
         exo_servo_sounds/volume_jump     = 1
         exo_servo_sounds/volume_land     = 1
         exo_servo_sounds/volume_walk     = 1
         extra_level_transitions/delete_level_transitions = false
         extra_level_transitions/enable_time_advance = false
+        fdda_avo/enable_ea               = true
+        fdda_avo/exo_anims               = true
+        fdda_avo/kevlar_anims            = true
         fight_my_foes/enable_fight_my_foes = true
         fmode_sound/sound                = weapons\generic\switch_mode_gfmss3
         fmode_sound/volume               = 0.6
@@ -409,6 +417,22 @@
         melee_degrade_onhit/knife_loss_mult = 0.4
         melee_degrade_onhit/light_loss_mult = 0.5
         melee_degrade_onhit/phys_loss_mult = 0.7
+        mutant_parts_quality/enable_raw_meat = false
+        mutant_parts_quality/high        = 30
+        mutant_parts_quality/high_kit    = 65
+        mutant_parts_quality/high_mult   = 3.6
+        mutant_parts_quality/low         = 60
+        mutant_parts_quality/low_kit     = 35
+        mutant_parts_quality/low_mult    = 1.4
+        mutant_parts_quality/med         = 50
+        mutant_parts_quality/med_kit     = 55
+        mutant_parts_quality/med_mult    = 2.4
+        mutant_parts_quality/veryhigh    = 15
+        mutant_parts_quality/veryhigh_kit = 70
+        mutant_parts_quality/veryhigh_mult = 4.8
+        mutant_parts_quality/verylow     = 75
+        mutant_parts_quality/verylow_kit = 20
+        mutant_parts_quality/verylow_mult = 0.8
         new_item_highlight/clear_type    = inv_closed
         new_item_highlight/highlight_clr_a = 35
         new_item_highlight/highlight_clr_b = 55
@@ -440,16 +464,16 @@
         scop/bad_scope_fov               = 0.2
         scop/grenade_fov                 = 0.45
         scop/iron_fov                    = 0.5
-        scop/keybind_add                 = 78
+        scop/keybind_add                 = 27
         scop/keybind_reset               = 14
-        scop/keybind_subtract            = 74
+        scop/keybind_subtract            = 43
         scop/mode                        = 1
         scop/modifier                    = 1
         scop/pistol_fov                  = 0.6
         scop/scop_fov                    = 0.4
         scop/scope_fov                   = 0.4
-        session_id                       = 348
-        session_start                    = 1680530719000
+        session_id                       = 389
+        session_start                    = 1683836232000
         smooth_prog/tier1                = 0.5
         smooth_prog/tier2                = 1.1
         smooth_prog/tier3                = 1.5
@@ -515,6 +539,8 @@
         targetID/yo                      = 700.5
         targetID/yp                      = 0
         targetID/yr                      = 3
+        unoff_autocomplete/enable_autocomplete = true
+        unoff_autocomplete/enable_debug  = false
         weapon_cover_tilt/animation_speed = 10
         weapon_cover_tilt/animation_weight_coeff = 0.7
         weapon_cover_tilt/consider_silencer = true
@@ -1696,7 +1722,7 @@
         video/player/mask_hud            = true
         video/player/radiation_effect    = true
         video/player/rain_droplets       = true
-        video/player/shoot_effects       = false
+        video/player/shoot_effects       = true
         video/player/visor_reflection    = true
         video/weather/clear_occurrence   = 3
         video/weather/clear_period       = 12
@@ -1714,6 +1740,10 @@
 [pda_contacts]
         check_refresh                    = true
         check_show_known                 = true
+ 
+[save_profiles]
+        current_profile                  = 1
+        max_profiles                     = 5
  
 [temp]
         base_sway                        = off
