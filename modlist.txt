@@ -22,6 +22,7 @@
 +[aaaanon] Knifeable Containers
 +Manual Installations_separator
 -[bvcx] Toxic Rain
+-[Blackjeison] Air Filters World Models
 -[bvcx] Toxic Air
 +[KronQ] Stuck Artifacts Fix
 +[Coverdrave] Better RF Receiver Sounds
@@ -73,9 +74,9 @@
 +[thisisntmysteamid] Crafting Fixes
 +[Grokitach] Craft and Repair Overhaul
 +Crafting_separator
-+Enjoy Cigarettes
-+Activated Charcoal
-+Unofficial Autocomplete v4
++[Tosox] Enjoy Cigarettes
++[Tosox] Activated Charcoal
++[Tosox] Unofficial Autocomplete v4
 +[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
 +[Utjan] QoL Bundle
@@ -185,13 +186,13 @@
 +[bvcx] Phantoms at low Psy Health
 +[Arszi] Mutant Bleeding
 +[Ishmaeel] Killtracker
-+[RazorShultz] Companions don't die
++[hexef] Tough Important NPCs and Companions
 +[_STYX_] Disable Burnt Fuzz
 +[sneakydud] Ghillie Suit Overhaul
 +[bvcx] Stealth Overhaul
 +[Vintar0] Bounty Squads Extended
 +Gameplay_separator
-+Animations and Visuals Overhaul
++[Tosox] Animations and Visuals Overhaul
 +[GaRRuSS] PDA Reanimation HUD Fix
 +[ky-ky123] PDA Reanimation
 +[Isthar] Torch Reanimation
