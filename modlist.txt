@@ -21,6 +21,8 @@
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
 +Manual Installations_separator
++[Cr3pis] Main Menu Loner
++[CryoManne] Tactical F.A.R.T.S. 720p Shadowed
 -[bvcx] Toxic Rain
 -[Blackjeison] Air Filters World Models
 -[bvcx] Toxic Air
