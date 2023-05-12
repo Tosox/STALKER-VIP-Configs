@@ -57,7 +57,9 @@
 +[Legapon] Hunger Thirst and Sleepiness Bars Patch
 +[bvcx] Hunger Thirst and Sleepiness Bars
 +UI_separator
-+[Igigog] Weird Tasks Framework
++[Igigog] WTF Task Pack
++[GhenTuong] WTF Task Pack
++[Arszi] WTF Task Pack
 +[mandothreesixtee] Ranks Revisited
 +[GhenTuong] Military not attacked by Duty in Rostok
 +[Cpt.Gunner] More Level Transitions
@@ -118,7 +120,6 @@
 +[Starcry_] Aslans Lottery Fix
 +[ravenascendant] Knife and Pistol in Binculars Slot
 +[ravenascendant] Sorting Plus
-+[ravenascendant] MCM
 +[Great_Day] Remove Dropping Weapons
 +[Diphenhydramine-HCl] Zone Customization Project
 +[TheShinyHaxorus] Bolt Reanimation
@@ -163,7 +164,6 @@
 +[Solarint] JSRS
 +[sneakydud] EFT Reposition
 +[Skieppy] Fluid Aim
-+[Aoldri] Universal Animation Scripts
 +Gunplay_separator
 +[Aoldri] Descriptive Stash Coordinates
 +[_Zazquatch_] Player Stash Icon
@@ -246,3 +246,7 @@
 +[Blindxside] Decrease Bush Hearing Distance
 +[Solarint] Soundscape Overhaul
 +Audio_separator
++[Igigog] Weird Tasks Framework
++[ravenascendant] MCM
++[Aoldri] Universal Animation Scripts
++Frameworks_separator
