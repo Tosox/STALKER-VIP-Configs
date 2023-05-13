@@ -3,7 +3,7 @@
 +VIP Weathers
 +HUD FOV Fixes
 +Agent Rescue Task Fix
-+Scope Radius Fixes
++Scope Radius Patch
 +Roadside's Lens Flares
 +BaS Dynamic Zoom Enabler
 +Wepl Hit Effects Rework
