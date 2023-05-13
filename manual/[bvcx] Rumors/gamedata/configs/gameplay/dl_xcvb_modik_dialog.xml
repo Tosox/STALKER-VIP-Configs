@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<game_dialogs>
+
+	<dialog id="dl_xcvb_modik_dialog">
+		<precondition>dialogs_xcvb_modik.dl_xcvb_modik_dialog_cond</precondition>
+		<phrase_list>
+			<phrase id="0"> <!-- Actor -->
+				<text>st_dl_xcvb_modik_dialog_start_phrase</text>
+				<next>1</next>
+			</phrase>
+			<phrase id="1"> <!-- NPC -->
+				<script_text>dialogs_xcvb_modik.get_phrase_npc</script_text> <!--это функция, которая должна вернуть текст для нпс, имя любое-->
+				<next>2</next>
+			</phrase>
+			<phrase id="2"> <!-- Actor -->
+				<text>st_dl_xcvb_modik_dialog_phrase_2</text>
+			</phrase>
+		</phrase_list>
+	</dialog>
+
+</game_dialogs>

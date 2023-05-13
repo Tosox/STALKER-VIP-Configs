@@ -1,0 +1,147 @@
+--[[
+:::::::::::::::::::::::::::::: Variables :::::::::::::::::::::::::::::::::
+]]
+local add_dialog = ka_dialog.add_dialog
+local set_saved_dialog = ka_dialog.set_saved_dialog
+
+local gt = game.translate_string
+local answered_npcs = {}
+
+local rumors_debug = true
+
+--[[
+:::::::::::::::::::::::::::::: Dialogs :::::::::::::::::::::::::::::::::
+]]
+function dl_xcvb_modik_dialog_cond(a, b)
+	if (a:id() ~= 0) then return false end
+	return true
+end
+
+function get_phrase_npc()	--first_speaker, second_speaker)
+	local def_answer = "st_dl_xcvb_modik_dialog_phrase_idk"
+
+	-- get table
+	local rumors_table = a_dialog_targets and a_dialog_targets.rumors_t
+	if not rumors_table then return "error1" end
+
+	-- get speaker
+	local speaker = mob_trade.GetTalkingNpc()
+	local speaker_comm = speaker and speaker:character_community()
+	if not speaker_comm then return "error2" end
+
+	-- get random commander
+	local commander_name = rumors_table[speaker_comm] and random_key_table(rumors_table[speaker_comm])
+	local name_t = commander_name and rumors_table[speaker_comm][commander_name]
+
+	-- debug to see current rumor target info xd
+	pr("---------------------------")
+	for comm, t1 in pairs(a_dialog_targets.rumors_t) do
+		if speaker_comm and comm == speaker_comm then
+			pr("[%s] = {", comm)
+			for name, t2 in pairs(t1) do
+				if commander_name and name == commander_name then
+					pr("    [%s] = {", name)
+						for prop, val in pairs(t2) do
+							pr("        %s = %s", prop, val)
+						end
+					pr("    },")
+				end
+			end
+			pr("},")
+		end
+	end
+
+	if not name_t then return def_answer end
+
+	-- if npc already answered
+	if answered_npcs[speaker:id()] then
+		return "st_dl_xcvb_modik_dialog_phrase_already"
+	end
+
+	-- store answering npc
+	answered_npcs[speaker:id()] = true
+
+	-- get killer info if possible
+	local function get_killer_comm(t_comm)
+		local killer_comm
+		if t_comm then
+			-- killer is mutant
+			if t_comm == "mutant" then
+				killer_comm = gt("rumors_from_mutants")
+			-- killer is stalker
+			elseif t_comm ~= "empty" then
+				killer_comm = gt("st_faction_" .. t_comm)
+			end
+		end
+		return killer_comm
+	end
+
+
+	---------- Build answer string ----------
+
+	local answer_str = ""
+
+	local went_missing_chance = 0.3
+	local function get_missing_and_level_str(killer_comm, level_name)
+		local level_str = level_name and (" " .. gt("rumors_somewhere_" .. math.random(1, 3)) .. " " .. gt(level_name)) or ""
+		-- if killer community exists and squad DO NOT missing - return "killed by community on level"
+		if killer_comm and math.random() > went_missing_chance then
+			local died_from_str = gt("rumors_died_from_" .. math.random(1, 3)) .. " " .. killer_comm
+			return died_from_str .. level_str
+		-- if killer community does not exist or squad DO missing
+		else
+			-- 75% to return "went missing on level"
+			if math.random() < 0.75 then
+				return gt("rumors_went_missing_" .. math.random(1, 2)) .. level_str
+			-- 25% return "went missing" without level
+			else
+				return gt("rumors_went_missing_" .. math.random(1, 2))
+			end
+		end
+	end
+
+	-- squad died
+	if name_t.squad_died then
+		local killer_comm = get_killer_comm(name_t.squad_killer_comm)
+		local missing_or_killed_and_level_str = get_missing_and_level_str(killer_comm, name_t.squad_level_name) or "squad_string_error"
+		answer_str = answer_str .. gt("rumors_whole_squad_" .. math.random(1, 3)) .. " " .. missing_or_killed_and_level_str .. ". "
+	end
+
+	-- commander died
+	if math.random() < 0.8 and name_t.old_commander and name_t.old_commander ~= commander_name then
+		local killer_comm = get_killer_comm(name_t.commander_killer_comm)
+		local missing_or_killed_and_level_str = get_missing_and_level_str(killer_comm, name_t.commander_level_name) or "commander_string_error"
+		answer_str = answer_str .. gt("rumors_prev_commander_" .. math.random(1, 2)) .. " " .. name_t.old_commander .. " " .. missing_or_killed_and_level_str .. ". "
+	end
+
+	-- npc died
+	if math.random() < 0.7 and ( (not name_t.old_commander and name_t.died) or (name_t.old_commander and name_t.died and name_t.died > 1) ) then
+		local killer_comm = get_killer_comm(name_t.npc_killer_comm)
+		local missing_or_killed_and_level_str = get_missing_and_level_str(killer_comm, name_t.npc_level_name) or "npc_string_error"
+		answer_str = answer_str .. name_t.died .. " " .. gt("rumors_their_men_" .. math.random(1, 3)) .. " " .. missing_or_killed_and_level_str .. ". "
+	end
+
+	-- squad killed rare mutant
+	if math.random() < 0.6 and name_t.killed_mutant then
+		answer_str = answer_str .. gt("rumors_squad_killed_mutant_" .. math.random(1, 3)) .. " " .. gt(name_t.killed_mutant) .. " " .. gt("rumors_somewhere_" .. math.random(1, 3)) .. " " .. gt(name_t.killed_mutant_level_name) .. ". "
+	end
+
+	-- squad killed stalker
+	if math.random() < 0.6 and name_t.killed_stalker_comm then
+		answer_str = answer_str .. gt("rumors_squad_killed_stalker_" .. math.random(1, 2)) .. " " .. gt("st_faction_" .. name_t.killed_stalker_comm) .. " " .. gt("rumors_somewhere_" .. math.random(1, 3)) .. " " .. gt(name_t.killed_stalker_level_name) .. "."
+	end
+
+
+	-- answer with rumors
+	if math.random() < 0.5 and answer_str ~= "" then
+		return gt("rumors_heard_" .. math.random(1, 3)) .. " " .. commander_name .. ". " .. answer_str
+	end
+
+	return def_answer
+end
+
+function pr(...)
+	if not rumors_debug then return end
+	printf(...)
+end
+

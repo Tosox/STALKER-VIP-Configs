@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="windows-1251" ?>
+
+<string_table>    
+
+	<!-- Dialogue phrases -->
+	<string id="st_dl_xcvb_modik_dialog_start_phrase">
+		<text>Слышал какие-нибудь слухи?</text>
+	</string>
+	<string id="st_dl_xcvb_modik_dialog_phrase_idk">
+		<text>Не знаю.</text>
+	</string>
+	<string id="st_dl_xcvb_modik_dialog_phrase_already">
+		<text>Больше ничего не слышал.</text>
+	</string>
+	<string id="st_dl_xcvb_modik_dialog_phrase_2">
+		<text>Ясно, спасибо.</text>
+	</string>
+
+
+	<!-- Answer string parts -->
+	<string id="rumors_from_mutants">
+		<text>мутантов</text>
+	</string>
+
+	<string id="rumors_whole_squad_1">
+		<text>Весь отряд</text>
+	</string>
+	<string id="rumors_whole_squad_2">
+		<text>Все из их отряда</text>
+	</string>
+	<string id="rumors_whole_squad_3">
+		<text>Отряд полностью</text>
+	</string>
+
+	<string id="rumors_prev_commander_1">
+		<text>Их предыдущий командир</text>
+	</string>
+	<string id="rumors_prev_commander_2">
+		<text>Прошлый лидер отряда</text>
+	</string>
+
+	<string id="rumors_died_from_1">
+		<text>умер от</text>
+	</string>
+	<string id="rumors_died_from_2">
+		<text>погиб от</text>
+	</string>
+	<string id="rumors_died_from_3">
+		<text>был убит</text>
+	</string>
+
+	<string id="rumors_went_missing_1">
+		<text>пропал без вести</text>
+	</string>
+	<string id="rumors_went_missing_2">
+		<text>исчез</text>
+	</string>
+
+	<string id="rumors_somewhere_1">
+		<text>где-то на локации</text>
+	</string>
+	<string id="rumors_somewhere_2">
+		<text>рядом с локацией</text>
+	</string>
+	<string id="rumors_somewhere_3">
+		<text>неподалеку от локации</text>
+	</string>
+
+	<string id="rumors_their_men_1">
+		<text>из их людей</text>
+	</string>
+	<string id="rumors_their_men_2">
+		<text>из членов их отряда</text>
+	</string>
+	<string id="rumors_their_men_3">
+		<text>из них</text>
+	</string>
+
+	<string id="rumors_squad_killed_mutant_1">
+		<text>Их отряд сумел убить</text>
+	</string>
+	<string id="rumors_squad_killed_mutant_2">
+		<text>Они встретили и убили</text>
+	</string>
+	<string id="rumors_squad_killed_mutant_3">
+		<text>Они добыли неплохие трофеи с</text>
+	</string>
+
+	<string id="rumors_squad_killed_stalker_1">
+		<text>Их отряд убил некоторых из группировки</text>
+	</string>
+	<string id="rumors_squad_killed_stalker_2">
+		<text>Они сумели убить нескольких из группировки</text>
+	</string>
+
+	<string id="rumors_heard_1">
+		<text>Я только слышал про отряд</text>
+	</string>
+	<string id="rumors_heard_2">
+		<text>Люди говорят про отряд</text>
+	</string>
+	<string id="rumors_heard_3">
+		<text>Слышно некоторые вещи про группу, лидер которой</text>
+	</string>
+
+</string_table>
