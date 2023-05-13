@@ -17,6 +17,7 @@
 +Free Zoom
 +Companions Tweaks
 +VIP Addons and Fixes_separator
++[bvcx] Rumors
 +[Lucy!] HD Glowsticks Icons
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
