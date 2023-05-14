@@ -94,7 +94,6 @@
 +[TheMrDemonized] Immersive Skinning
 +[Great_Day] Old Ammo Becomes New Ammo
 +[fsttime] Inspect Weapons
-+[TheMrDemonized] Combine All Items
 +[TheMrDemonized] Disassemble All Items
 +[ravenascendant] Battery Warning
 +[ravenascendant] Restored Encyclopedia Messages
