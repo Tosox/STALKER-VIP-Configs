@@ -195,6 +195,7 @@
 +[Vintar0] Bounty Squads Extended
 +Gameplay_separator
 +[Tosox] Animations and Visuals Overhaul
++[Skyww] Ballistic Plates Animations
 +[GaRRuSS] PDA Reanimation HUD Fix
 +[ky-ky123] PDA Reanimation
 +[Isthar] Torch Reanimation
