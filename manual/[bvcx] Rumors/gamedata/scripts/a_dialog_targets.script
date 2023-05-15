@@ -116,7 +116,7 @@ function squad_on_npc_death(squad, se_obj, killer)
 		-- get killer squad
 		local killer_squad = get_object_squad(killer)
 		local killer_squad_fits = killer_squad and string.find(killer_squad:section_name(), "sim_squad")
-		local killer_commander_id = killer_squad.commander_id and killer_squad:commander_id()
+		local killer_commander_id = killer_squad and killer_squad.commander_id and killer_squad:commander_id()
 		local killer_commander = killer_commander_id and alife_object(killer_commander_id)
 		local killer_commander_name = killer_commander and killer_commander.character_name and killer_commander:character_name()
 		local killer_squad_comm = killer_squad and killer_squad:get_squad_community()
