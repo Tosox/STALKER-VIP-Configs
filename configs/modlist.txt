@@ -82,6 +82,7 @@
 +[Tosox] Enjoy Cigarettes
 +[Tosox] Activated Charcoal
 +[Tosox] Unofficial Autocomplete v4
++[MaxSpringer] Lootable Rats
 +[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
 +[Utjan] QoL Bundle
@@ -175,6 +176,7 @@
 +Stashes_separator
 +[Orleon] Mutant Parts Quality Gradation
 +[bvcx] Bloodsucker Invisibility Cloak
++[real_leaper] Smart Map for DAO
 +[TheMrDemonized] Dynamic Anomalies Overhaul
 +[bvcx] Night Mutants
 +[bvcx] More Dynamic Tasks
@@ -208,6 +210,7 @@
 +Animations_separator
 +[Wang_Laoshi] Body Awareness
 +[bvcx] More Zombie Textures
++[KynesPeace] Alternative Cats
 +[KynesPeace] Alternative Fleshes
 +[KynesPeace] Alternative Pseudodogs and PsyDogs
 +[KynesPeace] Alternative Blind Dogs
