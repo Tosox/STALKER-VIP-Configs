@@ -57,7 +57,6 @@
 +[TheMrDemonized] Parts in Tooltip
 +[TDLemon] New Mutant Parts Textures
 +[Strogglet15] Alternative Icons
-+[Legapon] Hunger Thirst and Sleepiness Bars Patch
 +[bvcx] Hunger Thirst and Sleepiness Bars
 +UI_separator
 +[Igigog] WTF Task Pack
