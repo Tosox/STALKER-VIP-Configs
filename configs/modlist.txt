@@ -79,6 +79,7 @@
 +[thisisntmysteamid] Crafting Fixes
 +[Grokitach] Craft and Repair Overhaul
 +Crafting_separator
++[Tosox] Gotta Move Fast
 +[Tosox] Enjoy Cigarettes
 +[Tosox] Activated Charcoal
 +[Tosox] Autocomplete Tasks
@@ -116,7 +117,6 @@
 +[ravenascendant] He is with me
 +[Kidzukami] HD Glowsticks EFT Reposition Fix
 +[Lucy!] HD Glowsticks
-+[reter] Gotta Go Also Slow
 +[Grokitach] Gotta Go Fast
 +[indyora] Dialogues Expanded
 +[bvcx] Early Geiger Ticks
