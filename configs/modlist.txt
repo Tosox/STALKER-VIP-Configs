@@ -81,6 +81,7 @@
 +[Tosox] Enjoy Cigarettes
 +[Tosox] Activated Charcoal
 +[Tosox] Autocomplete Tasks
++[FeldW] And Who to Shoot
 +[iTheon] PDA Taskboard
 +[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
