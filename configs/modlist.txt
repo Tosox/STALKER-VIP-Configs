@@ -22,6 +22,7 @@
 +[Lucy!] HD Glowsticks Icons
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
++[Oni_Barix] Tales From The Zone [Arestor Grammar-Coherence Revised]
 +Manual Installations_separator
 +[Cr3pis] Main Menu Loner
 +[CryoManne] Tactical F.A.R.T.S. 720p Shadowed
@@ -112,7 +113,6 @@
 +[TheMrDemonized] Mini Modpack
 +[Ishmaeel] Nitpickers Modpack
 +[Vintar0] Modular Miscellaneous Tweaks
-+[Oni_Barix] Tales from the Zone
 +[^Nastor^] Fight my Foes
 +[ravenascendant] He is with me
 +[Kidzukami] HD Glowsticks EFT Reposition Fix
