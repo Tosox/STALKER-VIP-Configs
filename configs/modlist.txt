@@ -237,6 +237,7 @@
 +[d_nan] Skies Redux
 +[IENCE] T.H.A.P. Rework
 +Visuals_separator
++[Chimo69] Gasmask Equip Unequip Sound
 +[Shr¡ke] Dark Signal Mutant Sounds
 +[Shr¡ke] Dark Signal Anomalies and Blowout Sounds
 +[Shr¡ke] Dark Signal Weather and Ambiance Sounds
