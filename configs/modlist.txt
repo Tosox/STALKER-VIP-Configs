@@ -185,7 +185,6 @@
 +[Grokitach] Body Health System
 +[Orleon] Mutant Parts Quality Gradation
 +[bvcx] Bloodsucker Invisibility Cloak
-+[real_leaper] Smart Map for DAO
 +[TheMrDemonized] Dynamic Anomalies Overhaul
 +[bvcx] Night Mutants
 +[bvcx] More Dynamic Tasks
