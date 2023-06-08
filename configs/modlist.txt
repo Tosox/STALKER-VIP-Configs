@@ -38,8 +38,8 @@
 +[IModeusI] T.H.A.P. No Fingerless Gloves
 -[CrookR] Faction Identification
 +Optionals_separator
-+[jdud] Cinematic VFX
 +[Hippobot] Atmospherics
++[jdud] Cinematic VFX
 +[TheMrDemonized] Dynamic Tonemap Extended
 +[Ascii1457] Screen Space Shaders
 +[theRealBeef] Shader-Based NVGs
