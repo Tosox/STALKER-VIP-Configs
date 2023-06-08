@@ -11,8 +11,6 @@
 +BaS Animation Fixes
 +Anomaly 1.5.2 Fixes
 +HUD FOV Fixes
-+VIP Weathers
-+Roadside's Lens Flares
 +BaS Dynamic Zoom Enabler
 +Vehicles in Darkscape
 +Repaired Starter Items
@@ -41,8 +39,11 @@
 -[CrookR] Faction Identification
 +Optionals_separator
 +[jdud] Cinematic VFX
++[Hippobot] Atmospherics
++[TheMrDemonized] Dynamic Tonemap Extended
 +[Ascii1457] Screen Space Shaders
 +[theRealBeef] Shader-Based NVGs
++[KennShade] Enhanced Shaders and Color Grading
 +[CrookR] Shader Driven Scopes
 +Shaders_separator
 +[Kageeskl] Minimalist Companion UI
@@ -89,7 +90,7 @@
 +[Tosox] Autocomplete Tasks
 +[bvcx] xr_danger Fix
 +[Noob388] Measuring Fix
-+[FeldW] And Who to Shoot
+-[FeldW] And Who to Shoot
 +[iTheon] PDA Taskboard
 +[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
@@ -222,14 +223,12 @@
 +[KynesPeace] Alternative Fleshes
 +[KynesPeace] Alternative Pseudodogs and PsyDogs
 +[KynesPeace] Alternative Blind Dogs
-+[TheMrDemonized] Dynamic Tonemap Extended
 +[Detron] Better Rain FX
 +[shortnamesalex] Nicer Flashlights and Headlamps
 +[shadowask5] Inviting Upscaled Corpses
 +[Umbrellord] HD Mutant Models
 +[Strogglet15] FVM Nosorog Overhaul
 +[Strogglet15] Fixed Vanilla Models
-+[TheMrDemonized] Dux's Innumerable Characters Kit Voices Pack
 +[DuxFortis] Dux's Innumerable Characters Kit
 +[Tweaki_Breeki] Fairer Thermal Anomalies
 +[Bazingarrey] High Resolution PDA Maps
@@ -238,12 +237,12 @@
 +[IENCE] T.H.A.P. Rework
 +Visuals_separator
 +[Chimo69] Gasmask Equip Unequip Sound
++[DesmanMetzger] Horror Overhaul
 +[Shr¡ke] Dark Signal Mutant Sounds
 +[Shr¡ke] Dark Signal Anomalies and Blowout Sounds
 +[Shr¡ke] Dark Signal Weather and Ambiance Sounds
 +[Shr¡ke] Dark Signal UI Sounds
 +[Spacecheese88] New PDA Sounds
-+[DesmanMetzger] Horror Overhaul
 +[Wojach] Ambient Music Pack
 +[wepl] New Hit Effects
 +[DesmanMetzger] Voiced Russian Actor
