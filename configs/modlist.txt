@@ -89,6 +89,7 @@
 +[Tosox] Enjoy Cigarettes
 +[Tosox] Activated Charcoal
 +[Tosox] Autocomplete Tasks
++[CatspawMods] Personal Adjustable Waypoint
 +[bvcx] xr_danger Fix
 +[Noob388] Measuring Fix
 -[FeldW] And Who to Shoot
@@ -182,6 +183,7 @@
 +[Tweaki_Breeki] Fix Bugged Stashes
 +[Tweaki_Breeki] New Stash Locations
 +Stashes_separator
++[CatspawMods] Milspec PDA
 +[bvcx] Looting Takes Time
 +[Grokitach] Body Health System
 +[Orleon] Mutant Parts Quality Gradation
@@ -217,6 +219,8 @@
 +[Feel_Fried] Food Drug and Drinks Animations
 +[ChadSTALKEREnjoyer] Remade Animations
 +Animations_separator
++[sticknou] ICOM Radio Receiver
++[Shadow_Guardian] Pack of new Devices
 +[Wang_Laoshi] Body Awareness
 +[bvcx] More Zombie Textures
 +[KynesPeace] Alternative Cats
