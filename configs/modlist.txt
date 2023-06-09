@@ -219,6 +219,7 @@
 +[Feel_Fried] Food Drug and Drinks Animations
 +[ChadSTALKEREnjoyer] Remade Animations
 +Animations_separator
++[Dubious_Repute] Viewport Loading Screens
 +[sticknou] ICOM Radio Receiver
 +[Shadow_Guardian] Pack of new Devices
 +[Wang_Laoshi] Body Awareness
@@ -236,7 +237,6 @@
 +[DuxFortis] Dux's Innumerable Characters Kit
 +[Tweaki_Breeki] Fairer Thermal Anomalies
 +[Bazingarrey] High Resolution PDA Maps
-+[Bazingarrey] High Resolution Loading Screens
 +[d_nan] Skies Redux
 +[IENCE] T.H.A.P. Rework
 +Visuals_separator
