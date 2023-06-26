@@ -7,6 +7,7 @@
 +Dynamic Loot Rebalance
 +BHS Rework
 +Better Radiation Camera Effect
++BaS Labels GBOOBS Patch
 +Bloodsucker Patch
 +Scope Radius Patch
 +Wepl Hit Effects Rework
@@ -141,11 +142,12 @@
 +[Diphenhydramine-HCl] Zone Customization Project
 +[TheShinyHaxorus] Bolt Reanimation
 +QoL_separator
++[TheMrDemonized] Enhanced Recoil Revised
++[Grokitach] Balanced Overhaul Of Ballistics System
 +[bvcx] Weapon Sway
 +[Ishmaeel] AmmoCheck
 +[moonshroom] Simple Unjam
 +[Jurkonov] Type 38 Arisaka
-+[TheMrDemonized] Enhanced Recoil Revised
 +[OG_Grinskin91] Aiming Movement Redux
 +[FIREBREATH1001] Binocular Reanimation
 +[BarryBogs] More Melee Features
