@@ -1,0 +1,9 @@
+function on_game_start()
+		alticons.actor_status.indicators["FireWoundImmunity"]      = { index= 14	,typ= "booster" ,functor= {"actor_status","get_boost","FireWoundImmunity",true}		,icon= "ui\\alticons\\BoostBallistic.dds"     ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+		alticons.actor_status.indicators["WoundImmunity"]          = { index= 15	,typ= "booster" ,functor= {"actor_status","get_boost","WoundImmunity",true}		,icon= "ui\\alticons\\BoostScratch.dds"       ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+		alticons.actor_status.indicators["ExplImmunity"]    	   = { index= 16	,typ= "booster" ,functor= {"actor_status","get_boost","ExplImmunity",true}		,icon= "ui\\alticons\\BoostExplosive.dds"     ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+		alticons.actor_status.indicators["StrikeImmunity"]         = { index= 17	,typ= "booster" ,functor= {"actor_status","get_boost","StrikeImmunity",true}		,icon= "ui\\alticons\\BoostImpact.dds"        ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+		alticons.actor_status.indicators["BurnImmunity"]           = { index= 18	,typ= "booster" ,functor= {"actor_status","get_boost","BurnImmunity",true}		,icon= "ui\\alticons\\BoostBurn.dds"          ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+		alticons.actor_status.indicators["ShockImmunity"]     	   = { index= 19	,typ= "booster" ,functor= {"actor_status","get_boost","ShockImmunity",true}		,icon= "ui\\alticons\\BoostElectric.dds"      ,background= "ui\\alticons\\bg2.dds"	,anim_icon= false	,anim_bk= false  ,anim_period= 5 }
+end	
+
