@@ -1,0 +1,93 @@
+local defaults = {
+	["enable"] = true,
+	["keybind"] = DIK_keys.DIK_M,
+	["modifier"] = 0,
+	["mode"] = 2
+}
+
+local mcm_keybinds = ui_mcm and ui_mcm.key_hold
+local key_function = "toggle_hud"
+
+local modes = {
+	[0] = { ["call"] = { "on_key_press", "on_key_hold" }, ["function"] = function(key) ui_mcm.simple_press("hud_toggler", key, key_function) end },
+	[1] = { ["call"] = { "on_key_press", "on_key_hold" }, ["function"] = function(key) if ui_mcm.double_tap("hud_toggler", key) then key_function() end end },
+	[2] = { ["call"] = { "on_key_hold", "on_key_press" }, ["function"] = function(key) if ui_mcm.key_hold("hud_toggler", key) then key_function() end end }
+}
+
+function get_config(key)
+	if ui_mcm then return ui_mcm.get("hud_toggler/" .. key) else return defaults[key] end
+end
+
+function on_mcm_load()
+	return {
+		id = "hud_toggler", sh = true, gr = {
+			{ id = "title", type = "slide", link = "ui_options_slider_mask", text = "ui_mcm_hud_toggler_title", size = { 512, 50 }, spacing = 20 },
+			{ id = "enable", type = "check", val = 1, def = defaults["enable"] },
+			{ id = "keybind", type = "key_bind", val = 2, def = defaults["keybind"] },
+			{ id = "modifier", type = ui_mcm.kb_mod_radio, val = 2, def = defaults["modifier"],
+				content = {
+					{ 0, "kb_mod_none" },
+					{ 1, "kb_mod_shift" },
+					{ 2, "kb_mod_ctrl" },
+					{ 3, "kb_mod_alt" }
+				}
+			},
+			{ id = "mode", type = ui_mcm.kb_mod_radio, val = 2, def = defaults["mode"],
+				content = {
+					{ 0, "kb_mode_press" },
+					{ 1, "kb_mode_dtap" },
+					{ 2, "kb_mode_hold" }
+				}
+			}
+		}
+	}
+end
+
+-- ===============================================================================
+
+local enable = nil
+local keybind = nil
+local modifier = nil
+local mode = nil
+
+function on_option_change()
+	enable = get_config("enable")
+	keybind = get_config("keybind")
+	modifier = get_config("modifier")
+	mode = get_config("mode")
+
+	RegisterScriptCallback(modes[mode]["call"][1], this[modes[mode]["call"][1]])
+	UnregisterScriptCallback(modes[mode]["call"][2], this[modes[mode]["call"][2]])
+end
+
+function on_key_press(key)
+	if not enable then return end
+	if key ~= keybind then return end
+	if not mcm_keybinds then
+		key_function()
+		return
+	end
+	if ui_mcm.get_mod_key(modifier) then
+		modes[mode]["function"](key)
+	end
+end
+
+function on_key_hold(key)
+	if not enable then return end
+	if key ~= keybind then return end
+	if ui_mcm.get_mod_key(modifier) then
+		modes[mode]["function"](key)
+	end
+end
+
+function toggle_hud()
+	local hud_enabled = get_console_cmd(1, "hud_draw")
+	if hud_enabled then exec_console_cmd("hud_draw off") else exec_console_cmd("hud_draw on") end
+end
+
+function on_game_start()
+	RegisterScriptCallback("on_option_change", on_option_change)
+	RegisterScriptCallback("on_key_press", on_key_press)
+	key_function = this[key_function]
+	on_option_change()
+end

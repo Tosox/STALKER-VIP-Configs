@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="windows-1251"?>
+<string_table>
+	<string id="ui_mcm_menu_hud_toggler">
+		<text>Переключатель HUD</text>
+	</string>
+	<string id="ui_mcm_hud_toggler_title">
+		<text>Переключатель HUD</text>
+	</string>
+	<string id="ui_mcm_hud_toggler_enable">
+		<text>Включить быструю привязку</text>
+	</string>
+	<string id="ui_mcm_hud_toggler_keybind">
+		<text>Клавиша</text>
+	</string>
+	<string id="ui_mcm_hud_toggler_modifier">
+		<text>Клавиша-модификатор</text>
+	</string>
+	<string id="ui_mcm_hud_toggler_mode">
+		<text>Режим нажатия</text>
+	</string>
+	
+	<string id="ui_mcm_lst_kb_mod_none">
+		<text>Без модификатора</text>
+	</string>
+	<string id="ui_mcm_lst_kb_mod_ctrl">
+		<text>Ctrl</text>
+	</string>
+	<string id="ui_mcm_lst_kb_mod_shift">
+		<text>Shift</text>
+	</string>
+	<string id="ui_mcm_lst_kb_mod_alt">
+		<text>Alt</text>
+	</string>
+	
+	<string id="ui_mcm_lst_kb_mode_press">
+		<text>Простое нажатие</text>
+	</string>
+	<string id="ui_mcm_lst_kb_mode_dtap">
+		<text>Двойное нажатие</text>
+	</string>
+	<string id="ui_mcm_lst_kb_mode_hold">
+		<text>Длительное нажатие</text>
+	</string>
+</string_table>

@@ -2,6 +2,7 @@
 -[Tweaki_Breeki] Angry Chimera Growls
 -[FeldW] And Who to Shoot
 +Good Addons with Issues_separator
++HUD Toggler
 +Autoswitch Alife
 +Meds Rework
 +Dynamic Loot Rebalance
