@@ -74,7 +74,7 @@ cam_slide_inert 0.25
 cl_cod_pickup_mode on
 cl_dynamiccrosshair on
 con_sensitive 0.15
-crash_save on
+crash_save 0
 crash_save_count 10
 discord_status on
 discord_update_rate 0.5
@@ -104,7 +104,7 @@ g_ironsights_zoom_factor 1.18
 g_lookout_toggle off
 g_multi_item_pickup on
 g_simple_pda on
-g_sleep_time 8
+g_sleep_time 12
 g_sprint_toggle on
 g_use_tracers on
 g_walk_toggle off
@@ -116,7 +116,7 @@ heat_vision_mode 0.
 heat_vision_steps (0.450000, 0.650000, 0.760000, 0.000000)
 hud_crosshair off
 hud_crosshair_dist off
-hud_draw off
+hud_draw on
 hud_fov 0.6
 hud_info on
 hud_weapon on
@@ -125,6 +125,7 @@ mouse_invert off
 mouse_sens 0.041
 mouse_sens_aim 0.9
 new_zoom_enable off
+particle_update_mod 1.
 ph_frequency 100.00000
 ph_iterations 18
 power_loss_bias 0.3
@@ -203,8 +204,8 @@ r2_sun_details off
 r2_sun_far 100.
 r2_sun_focus on
 r2_sun_lumscale 3.
-r2_sun_lumscale_amb 1.4
-r2_sun_lumscale_hemi 1.31446
+r2_sun_lumscale_amb 0.49257
+r2_sun_lumscale_hemi 0.65
 r2_sun_near 20.
 r2_sun_near_border 0.75
 r2_sun_quality st_opt_low
@@ -228,9 +229,9 @@ r2_tnmp_onoff 0.
 r2_tnmp_w 1.12
 r2_tonemap on
 r2_tonemap_adaptation 3.
-r2_tonemap_amount 0.44456
-r2_tonemap_lowlum 0.6
-r2_tonemap_middlegray 1.6
+r2_tonemap_amount 0.82432
+r2_tonemap_lowlum 0.03
+r2_tonemap_middlegray 1.06284
 r2_volumetric_lights on
 r2_wait_sleep 0
 r2_water_reflections on
@@ -253,8 +254,8 @@ r__bloom_thresh (0.700000, 0.800000, 0.900000, 0.000000)
 r__bloom_weight (0.330000, 0.330000, 0.330000, 0.000000)
 r__clear_models_on_unload off
 r__color_grading (0.520000, 0.500000, 0.500000)
-r__detail_density 0.27
-r__detail_height 0.6
+r__detail_density 0.3
+r__detail_height 0.65
 r__detail_radius 110
 r__dtex_range 50.
 r__enable_grass_shadow on
@@ -326,11 +327,23 @@ snd_efx off
 snd_targets 256
 snd_volume_eff 0.5
 snd_volume_music 0.
+ssfx_blood_decals (0.600000, 0.600000, 0.000000, 0.000000)
+ssfx_grass_interactive (1.000000, 8.000000, 700.000000, 1.000000)
+ssfx_grass_shadows (0.000000, 0.350000, 30.000000, 0.000000)
+ssfx_hud_drops_1 (134.283142, 0.973190, 30.000000, 0.050000)
+ssfx_hud_drops_2 (0.225000, 1.130000, 0.000000, 2.000000)
+ssfx_int_grass_params_1 (1.000000, 1.000000, 1.000000, 25.000000)
+ssfx_int_grass_params_2 (1.000000, 5.000000, 0.300000, 2.000000)
+ssfx_rain_1 (2.000000, 0.100000, 0.600000, 2.000000)
+ssfx_rain_2 (0.750000, 0.150000, 1.100000, 0.500000)
+ssfx_rain_3 (0.500000, 1.000000, 0.000000, 0.000000)
+ssfx_shadow_cascades (17.000000, 55.000000, 150.000000)
 ssfx_wetness_multiplier (1.000000, 0.300000, 0.000000)
 ssfx_wpn_dof_1 (0.150000, 0.400000, 0.000000, 0.700000)
 ssfx_wpn_dof_2 0.15
 texture_lod 0
 time_factor 1.000000
+use_english_text_for_missing_translations 1
 vid_mode 2560x1440
 weapon_sway off
 wpn_aim_toggle off
