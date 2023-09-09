@@ -14,7 +14,6 @@
 +Wepl Hit Effects Rework
 +Horror Overhaul Fixes
 +Agent Rescue Task Fix
-+BaS Animation Fixes
 +Anomaly 1.5.2 Fixes
 +HUD FOV Fixes
 +BaS Dynamic Zoom Enabler
@@ -27,7 +26,6 @@
 +VIP Addons and Fixes_separator
 +[Nyarauder] More Booster Status Icons
 +[Oni_Barix] Tales From The Zone [Arestor Grammar-Coherence Revised]
-+[bvcx] Rumors
 +[Lucy!] HD Glowsticks Icons
 +[toxicfox777] Better Bullet Casing
 +[aaaanon] Knifeable Containers
@@ -97,7 +95,6 @@
 +[bvcx] Semi Radiant AI
 +[bvcx] Squads Filler
 +[CatspawMods] Anomalous RF Signals
-+[CatspawMods] Personal Adjustable Waypoint
 +[bvcx] xr_danger Fix
 +[CatspawMods] Barrier Defense Task Emission Fix
 +[Noob388] Measuring Fix
@@ -148,7 +145,6 @@
 +[bvcx] Weapon Sway
 +[Ishmaeel] AmmoCheck
 +[moonshroom] Simple Unjam
-+[Jurkonov] Type 38 Arisaka
 +[OG_Grinskin91] Aiming Movement Redux
 +[FIREBREATH1001] Binocular Reanimation
 +[BarryBogs] More Melee Features
@@ -234,8 +230,6 @@
 +Animations_separator
 +[aytabag] Aydins Grass Tweaks - Spring
 +[Dubious_Repute] Viewport Loading Screens
-+[sticknou] ICOM Radio Receiver
-+[Shadow_Guardian] Pack of new Devices
 +[Wang_Laoshi] Body Awareness
 +[bvcx] More Zombie Textures
 +[KynesPeace] Alternative boars
