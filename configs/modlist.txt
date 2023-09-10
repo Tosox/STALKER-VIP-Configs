@@ -237,7 +237,6 @@
 +[KynesPeace] Alternative Fleshes
 +[KynesPeace] Alternative Pseudodogs and PsyDogs
 +[KynesPeace] Alternative Blind Dogs
-+[Detron] Better Rain FX
 +[shortnamesalex] Nicer Flashlights and Headlamps
 +[shadowask5] Inviting Upscaled Corpses
 +[Umbrellord] HD Mutant Models
