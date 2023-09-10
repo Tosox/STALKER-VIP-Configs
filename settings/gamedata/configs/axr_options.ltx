@@ -214,7 +214,7 @@
         aoldri_axe_sounds/resume_time    = 0.1
         aoldri_axe_sounds/time_factor    = 0.1
         autocomplete_tasks/at_general/compensate_item_rewards = true
-        autocomplete_tasks/at_general/compensation_coefficient = 1
+        autocomplete_tasks/at_general/compensation_coefficient = 0.5
         autocomplete_tasks/at_general/enable = true
         autocomplete_tasks/at_general/pda_check = true
         autocomplete_tasks/at_general_tasks/assault = true
@@ -702,8 +702,8 @@
         scop/pistol_fov                  = 0.6
         scop/scop_fov                    = 0.4
         scop/scope_fov                   = 0.4
-        session_id                       = 484
-        session_start                    = 1692898288000
+        session_id                       = 516
+        session_start                    = 1694372373000
         sidhud/radhealthshow             = true
         smooth_prog/tier1                = 0.5
         smooth_prog/tier2                = 1.1
@@ -732,10 +732,10 @@
         ssfx_module/shw_cascades/size_3_mcm = 150
         ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/jump_vol_mcm = 0.7
         ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/land_vol_mcm = 0.7
-        ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/main_vol_mcm = 0.4
+        ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/main_vol_mcm = 0.6
         ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/multi_no_rain_mcm = 0.3
         ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/multi_run_mcm = 1.4
-        ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/multi_walk_mcm = 0.33
+        ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/multi_walk_mcm = 0.5
         ssfx_module/ssfx_rain_module/ssfx_rain_footsteps/vol_rnd_mcm = 0.15
         ssfx_module/ssfx_rain_module/ssfx_rain_hud_raindrops/animation_speed_mcm = 1
         ssfx_module/ssfx_rain_module/ssfx_rain_hud_raindrops/buildup_mcm = 1.1
@@ -1881,7 +1881,7 @@
         alife/warfare/zombied/target_weaker_priority = 0
         alife/warfare/zombied/territory_priority = -5
         control/general/crouch_toggle    = false
-        control/general/disassembly_warning = true
+        control/general/disassembly_warning = false
         control/general/mouse_sens       = 0.041
         control/general/mouse_sens_aim   = 0.8
         gameplay/backpack_travel/on_combat = false
@@ -1919,8 +1919,8 @@
         gameplay/fast_travel/visit_message = false
         gameplay/general/corpse_max_count = 22
         gameplay/general/corpse_min_dist = 140
-        gameplay/general/hardcore_ai_aim = false
-        gameplay/general/max_tasks       = 4
+        gameplay/general/hardcore_ai_aim = true
+        gameplay/general/max_tasks       = 3
         gameplay/general/mechanic_feature = false
         gameplay/general/need_equipped_hkit = true
         gameplay/general/npc_loot_distance = 12
@@ -1936,6 +1936,10 @@
         gameplay/silent_kills/sk_melee_enabled = true
         gameplay/silent_kills/sk_melee_hear_dist = 5
         gameplay/silent_kills/sk_suspect_dist = 10
+        modded_exes/crash_save_count     = 5
+        modded_exes/new_zoom_enable      = true
+        modded_exes/particle_update_mod  = 0.75
+        modded_exes/snd_doppler_power    = 0.4
         other/autosave_timer_new         = 0
         other/debug_error                = false
         other/debug_hud                  = false
@@ -1944,7 +1948,7 @@
         sound/environment/ambient_volume = 1
         sound/environment/breathing_sound = false
         sound/environment/helmet_rain_sound = true
-        sound/environment/wind_sound     = false
+        sound/environment/wind_sound     = true
         sound/general/caption            = none
         sound/general/dynamic_music      = true
         sound/general/eax                = false
@@ -1967,7 +1971,7 @@
         video/advanced/dof_enable        = false
         video/advanced/enable_tessellation = true
         video/advanced/framelimit        = 164
-        video/advanced/geometry_lod      = 1
+        video/advanced/geometry_lod      = 1.5
         video/advanced/gloss_factor      = 0.5
         video/advanced/grass_shadow      = true
         video/advanced/ls_squality       = 1
@@ -1992,6 +1996,7 @@
         video/advanced/tf_aniso          = 16
         video/advanced/v_sync            = false
         video/advanced/vis_distance      = 0.9
+        video/advanced/volumetric_lights = true
         video/advanced/volumetric_smoke  = true
         video/basic/brightness           = 1.1
         video/basic/contrast             = 1.1
@@ -2003,7 +2008,7 @@
         video/hud/show_crosshair         = true
         video/hud/show_enemy_health      = false
         video/hud/show_identity          = false
-        video/hud/show_minimap           = true
+        video/hud/show_minimap           = false
         video/hud/show_slots             = false
         video/night/brightness           = slight
         video/night/moon_cycle           = 8
