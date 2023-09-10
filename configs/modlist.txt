@@ -191,7 +191,6 @@
 +[Tweaki_Breeki] New Stash Locations
 +Stashes_separator
 +[Nullblank] NPC Loot Claim Continued - Sorting Plus Version
--[Vintar0] NPC Loot Claim Continued
 +[CatspawMods] Milspec PDA
 +[bvcx] Looting Takes Time
 +[Grokitach] Body Health System
