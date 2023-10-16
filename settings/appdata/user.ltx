@@ -1,7 +1,7 @@
 _preset Default
 ai_aim_max_angle 20.
 ai_aim_min_angle 17.
-ai_aim_min_speed 2.5
+ai_aim_min_speed 2.
 ai_aim_predict_time 0.28
 ai_aim_use_smooth_aim 1
 ai_die_in_anomaly 0
@@ -84,7 +84,7 @@ first_person_death_direction_smoothing 12
 first_person_death_near_plane_offset 0.
 first_person_death_position_offset (0.000000, 0.000000, 0.000000)
 first_person_death_position_smoothing 6
-fov 75.
+fov 80.
 g_3d_pda on
 g_always_active on
 g_autopickup on
@@ -95,17 +95,21 @@ g_dead_body_collision actor_only
 g_dispersion_base 1.7
 g_dispersion_factor 2.
 g_dynamic_music on
+g_end_modif 0.
 g_feel_grenade off
+g_firepos off
 g_freelook_toggle off
 g_game_difficulty gd_stalker
+g_god off
 g_hit_pwr_modif 1.
 g_important_save on
 g_ironsights_zoom_factor 1.18
 g_lookout_toggle off
 g_multi_item_pickup on
 g_simple_pda on
-g_sleep_time 1
+g_sleep_time 6
 g_sprint_toggle on
+g_unlimitedammo off
 g_use_tracers on
 g_walk_toggle off
 head_bob_factor 1.
@@ -121,12 +125,14 @@ hud_fov 0.6
 hud_info on
 hud_weapon on
 keypress_on_start on
+log_missing_ini off
 mouse_invert off
 mouse_sens 0.041
 mouse_sens_aim 0.9
 new_zoom_enable on
 particle_update_mod 0.75
 ph_frequency 100.00000
+ph_gravity 19.62
 ph_iterations 18
 power_loss_bias 0.3
 power_loss_factor 0.5
@@ -204,8 +210,8 @@ r2_sun_details off
 r2_sun_far 100.
 r2_sun_focus on
 r2_sun_lumscale 3.
-r2_sun_lumscale_amb 1.02938
-r2_sun_lumscale_hemi 0.78
+r2_sun_lumscale_amb 1.226
+r2_sun_lumscale_hemi 1.87149
 r2_sun_near 20.
 r2_sun_near_border 0.75
 r2_sun_quality st_opt_low
@@ -229,9 +235,9 @@ r2_tnmp_onoff 0.
 r2_tnmp_w 1.12
 r2_tonemap on
 r2_tonemap_adaptation 3.
-r2_tonemap_amount 0.35312
-r2_tonemap_lowlum 0.3
-r2_tonemap_middlegray 1.17344
+r2_tonemap_amount 0.93499
+r2_tonemap_lowlum 0.6
+r2_tonemap_middlegray 1.4325
 r2_volumetric_lights on
 r2_wait_sleep 0
 r2_water_reflections on
@@ -291,7 +297,7 @@ rs_stats off
 rs_v_sync off
 rs_vis_distance 0.9
 scope_2dtexactive 0
-scope_blur_inner 0.2
+scope_blur_inner 0.
 scope_blur_outer 1.
 scope_brightness 1.
 scope_ca 0.0066
@@ -310,14 +316,14 @@ shader_param_1 (1.000000, 1.000000, 1.000000, 0.110000)
 shader_param_2 (0.000000, 0.000000, 0.000000, 0.000000)
 shader_param_3 (0.835000, 0.847000, 0.852000, -0.015000)
 shader_param_4 (1.122000, 1.122000, 1.122000, -0.440000)
-shader_param_5 (0.000000, 0.000000, 0.000000, 0.000000)
+shader_param_5 (1.000000, 0.000000, 0.000000, 0.000000)
 shader_param_6 (0.000000, 1.000000, 0.000000, 0.000000)
 shader_param_7 (100.000000, 0.500000, 0.000000, 0.000000)
 shader_param_8 (0.000000, 0.000000, 0.000000, 0.000000)
-slot_0 medkit
+slot_0 stimpack
 slot_1 bandage
-slot_2 cigar3
-slot_3 flask
+slot_2 antirad
+slot_3 caffeine
 snd_acceleration on
 snd_cache_size 256
 snd_device OpenAL Soft
@@ -330,7 +336,7 @@ snd_volume_music 0.
 ssfx_blood_decals (0.600000, 0.600000, 0.000000, 0.000000)
 ssfx_grass_interactive (1.000000, 8.000000, 700.000000, 1.000000)
 ssfx_grass_shadows (0.000000, 0.350000, 30.000000, 0.000000)
-ssfx_hud_drops_1 (265.211121, 0.000000, 30.000000, 0.050000)
+ssfx_hud_drops_1 (0.000000, 0.000000, 30.000000, 0.050000)
 ssfx_hud_drops_2 (0.225000, 1.130000, 0.000000, 2.000000)
 ssfx_int_grass_params_1 (1.000000, 1.000000, 1.000000, 25.000000)
 ssfx_int_grass_params_2 (1.000000, 5.000000, 0.300000, 2.000000)

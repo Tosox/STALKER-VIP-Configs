@@ -2,7 +2,6 @@
 -[Tweaki_Breeki] Angry Chimera Growls
 -[FeldW] And Who to Shoot
 +Good Addons with Issues_separator
-+HUD Toggler
 +Autoswitch Alife
 +Meds Rework
 +Dynamic Loot Rebalance
@@ -102,7 +101,6 @@
 +[Orleon] Save Profiles
 +[ZaturaMakesMods] Auto-Stack Items
 +[Utjan] QoL Bundle
-+[NLTP_ASHES] Persistent PDA Radio
 +[TheMrDemonized] Attach Patches with Hotkey
 +[Apathy_Knight] Beloved Photo
 +[eric7237cire] Mouse Hover Transfer
