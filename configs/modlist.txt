@@ -93,7 +93,6 @@
 +[Tosox] Autocomplete Tasks
 +[bvcx] Semi Radiant AI
 +[bvcx] Squads Filler
-+[CatspawMods] Anomalous RF Signals
 +[bvcx] xr_danger Fix
 +[CatspawMods] Barrier Defense Task Emission Fix
 +[Noob388] Measuring Fix
