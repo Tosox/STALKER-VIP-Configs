@@ -3,7 +3,6 @@
 -[FeldW] And Who to Shoot
 +Good Addons with Issues_separator
 +Binoculars Detection Enabler
-+Autoswitch Alife
 +Meds Rework
 +Dynamic Loot Rebalance
 +BHS Rework
