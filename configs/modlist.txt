@@ -5,7 +5,7 @@
 +Binoculars Detection Enabler
 +Meds Rework
 +Dynamic Loot Rebalance
-+BHS Rework
++BHS GAMMA Look
 +Better Radiation Camera Effect
 +BaS Labels GBOOBS Patch
 +Bloodsucker Patch
